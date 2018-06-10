@@ -34,7 +34,7 @@ client.on("message", (message) => {
   else if (message.content.startsWith("showguilds")){
     var str = "";
     client.guilds.forEach(function(value, key, map){
-      str += value + "/n";
+      str += value + "\n";
     });
     message.channel.send(""+str);
   }
