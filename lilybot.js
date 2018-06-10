@@ -32,7 +32,11 @@ client.on("message", (message) => {
     message.channel.send("pong!");
   }
   else if (message.content.startsWith("showguilds")){
-    message.channel.send(""+client.guilds.toString());
+    var str = "";
+    client.guilds.forEach(function(value, key, map){
+      str += value + "/n";
+    });
+    message.channel.send(""+str);
   }
 });
 
