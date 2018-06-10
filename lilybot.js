@@ -24,7 +24,7 @@ function regex(m,p){
 
 client.on("ready", () => {
   console.log("I am ready!");
-  message.channel.send("lilybot 2.0 online!");
+  //message.channel.send("lilybot 2.0 online!");
 });
 
 client.on("message", (message) => {
