@@ -40,4 +40,4 @@ client.on("message", (message) => {
   }
 });
 
-client.login("NDU1MTQ2OTIyMjY5ODY4MDUy.Df3xsg.SmIF3ha_gc8ImL2ur-Zlf5XIeOU");
+client.login("censored for hacking");
